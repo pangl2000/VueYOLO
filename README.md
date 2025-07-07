@@ -1,2 +1,2 @@
 # VueYOLO
-Basic image detection with YOLOv5, using Vue.
+Basic image detection with YOLOv5, using Vue and Docker.
