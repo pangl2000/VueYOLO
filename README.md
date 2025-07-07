@@ -24,16 +24,7 @@ A simple web application that allows users to upload images and receive object d
 
 
 ## 📁 Project Structure
-├── backend/ # Flask API with YOLOv5 inference
-│ ├── objectDetectionApi.py
-│ ├── yolov5/ # Cloned YOLOv5 repo
-│ └── Dockerfile
-├── frontend/ # Vue.js app
-│ ├── src/
-│ ├── public/
-│ └── Dockerfile
-├── docker-compose.yml
-└── README.md
+<pre lang="markdown"> ## 📁 Project Structure VueYOLO/ ├── backend/ # Flask API and YOLOv5 logic │ ├── objectDetectionApi.py # Main Python backend script │ ├── yolov5/ # YOLOv5 model directory (cloned or copied) │ ├── requirements.txt # Python dependencies │ └── Dockerfile # Backend Dockerfile │ ├── frontend/ # Vue.js frontend (Vite-based) │ ├── src/ # Vue components and logic │ ├── public/ # Static assets (test image, favicon, etc.) │ ├── vite.config.js # Vite config file │ ├── package.json # Frontend dependencies │ └── Dockerfile # Frontend Dockerfile │ ├── docker-compose.yml # Defines both frontend and backend services └── README.md # Project documentation </pre>
 
 ## 🐳 Getting Started with Docker
 
@@ -42,10 +33,12 @@ A simple web application that allows users to upload images and receive object d
 ```bash
 git clone https://github.com/pangl2000/VueYOLO.git
 cd VueYOLO
+```
 
 ### 2. Build and start the containers
 ```bash
 docker-compose up --build
+```
 
 ### 3. Open the app
 Go to http://localhost:8080
