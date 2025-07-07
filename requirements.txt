@@ -1,0 +1,14 @@
+
+flask
+flask-cors
+torch
+torchvision
+opencv-python
+pandas
+pillow
+ultralytics
+seaborn
+opencv-python
+numpy
+matplotlib
+requests
