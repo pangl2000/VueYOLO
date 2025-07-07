@@ -1,29 +1,24 @@
-# frontend
+# VueYOLO
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple web application that allows users to upload images and receive object detection results using YOLOv5 on the backend and Vue.js on the frontend.
 
-## Recommended IDE Setup
+## 🚀 Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Upload an image via the web interface
+- Backend processes the image using a trained YOLOv5 model
+- Detected objects returned with bounding boxes and labels
+- Results displayed visually in the frontend
 
-## Customize configuration
+## 🧠 Tech Stack
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Frontend:** Vue.js 3
+- **Backend:** Python (Flask or FastAPI)
+- **ML Model:** YOLOv5 (by Ultralytics)
+- **Deployment:** Docker (optional)
 
-## Project Setup
+## 📸 Screenshots
 
-```sh
-npm install
-```
+_Add screenshots here if available._
 
-### Compile and Hot-Reload for Development
+## 📁 Project Structure
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
