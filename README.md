@@ -18,7 +18,10 @@ A simple web application that allows users to upload images and receive object d
 
 ## 📸 Screenshots
 
-_Add screenshots here if available._
+![image](https://github.com/user-attachments/assets/66f84843-ae10-4013-85a2-211c85453f9a)
+
+![image](https://github.com/user-attachments/assets/89f10fcd-9a47-4ead-8c83-4a1a8c871882)
+
 
 ## 📁 Project Structure
 
