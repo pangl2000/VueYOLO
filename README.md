@@ -25,11 +25,11 @@ A simple web application that allows users to upload images and receive object d
 
 ## 📁 Project Structure
 
-- `backend/` – Flask API and YOLOv5 logic
-  - `objectDetectionApi.py` – main backend script
-  - `yolov5/` – YOLOv5 source code
-  - `requirements.txt` – Python dependencies
-  - `Dockerfile` – Backend Dockerfile
+`backend/` – Flask API and YOLOv5 logic
+- `objectDetectionApi.py` – main backend script
+- `yolov5/` – YOLOv5 source code
+- `requirements.txt` – Python dependencies
+- `Dockerfile` – Backend Dockerfile
 - `frontend/` – Vue 3 frontend (Vite)
   - `src/`, `public/`, `vite.config.js`, `Dockerfile`
 - `docker-compose.yml` – container configuration
